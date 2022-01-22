@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371E1D1D965FFD94CD6918D3 /* Pods_YJTApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED30CE1BFDABABCDCF8BD12 /* Pods_YJTApp.framework */; };
+		39914A20279A53F500441CCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A1F279A53F500441CCA /* AppDelegate.swift */; };
+		39914A29279A53F600441CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39914A28279A53F600441CCA /* Assets.xcassets */; };
+		39914A2C279A53F600441CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39914A2A279A53F600441CCA /* LaunchScreen.storyboard */; };
+		39914A3A279A8E2300441CCA /* YJTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A39279A8E2300441CCA /* YJTAPI.swift */; };
+		39914A3D279A9D3F00441CCA /* YJTBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A3C279A9D3F00441CCA /* YJTBase.swift */; };
+		39914A3F279ADE8600441CCA /* YJTNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A3E279ADE8600441CCA /* YJTNetwork.swift */; };
+		39914A42279BA07B00441CCA /* YJTRootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A41279BA07B00441CCA /* YJTRootTabBarController.swift */; };
+		39914A48279BA10700441CCA /* YJTMainHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A47279BA10700441CCA /* YJTMainHomeViewController.swift */; };
+		39914A4A279BA14500441CCA /* YJTLiveHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A49279BA14500441CCA /* YJTLiveHomeViewController.swift */; };
+		39914A4C279BA16300441CCA /* YJTMessageHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A4B279BA16200441CCA /* YJTMessageHomeViewController.swift */; };
+		39914A4E279BA17400441CCA /* YJTMineHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A4D279BA17400441CCA /* YJTMineHomeViewController.swift */; };
+		39914A51279BA37500441CCA /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A50279BA37500441CCA /* R.generated.swift */; };
+		39914A53279BD64400441CCA /* YJTLiveTopListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A52279BD64400441CCA /* YJTLiveTopListViewController.swift */; };
+		39914A55279BD64D00441CCA /* YJTLiveAllListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A54279BD64D00441CCA /* YJTLiveAllListViewController.swift */; };
+		39914A57279BD8C000441CCA /* YJTMainAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A56279BD8C000441CCA /* YJTMainAttentionViewController.swift */; };
+		39914A59279BD8E900441CCA /* YJTMainRecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A58279BD8E900441CCA /* YJTMainRecommendViewController.swift */; };
+		39914A5B279BD99200441CCA /* YJTMainSquareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A5A279BD99200441CCA /* YJTMainSquareViewController.swift */; };
+		39914A62279BF6C900441CCA /* YJTLiveDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39914A61279BF6C900441CCA /* YJTLiveDetailModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0800A3F5361C5D0A58EC5C37 /* Pods-YJTApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJTApp.debug.xcconfig"; path = "Target Support Files/Pods-YJTApp/Pods-YJTApp.debug.xcconfig"; sourceTree = "<group>"; };
+		39914A1C279A53F500441CCA /* YJTApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJTApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39914A1F279A53F500441CCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39914A28279A53F600441CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39914A2B279A53F600441CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39914A2D279A53F600441CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39914A39279A8E2300441CCA /* YJTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTAPI.swift; sourceTree = "<group>"; };
+		39914A3C279A9D3F00441CCA /* YJTBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTBase.swift; sourceTree = "<group>"; };
+		39914A3E279ADE8600441CCA /* YJTNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTNetwork.swift; sourceTree = "<group>"; };
+		39914A41279BA07B00441CCA /* YJTRootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTRootTabBarController.swift; sourceTree = "<group>"; };
+		39914A47279BA10700441CCA /* YJTMainHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTMainHomeViewController.swift; sourceTree = "<group>"; };
+		39914A49279BA14500441CCA /* YJTLiveHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTLiveHomeViewController.swift; sourceTree = "<group>"; };
+		39914A4B279BA16200441CCA /* YJTMessageHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTMessageHomeViewController.swift; sourceTree = "<group>"; };
+		39914A4D279BA17400441CCA /* YJTMineHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTMineHomeViewController.swift; sourceTree = "<group>"; };
+		39914A50279BA37500441CCA /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		39914A52279BD64400441CCA /* YJTLiveTopListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTLiveTopListViewController.swift; sourceTree = "<group>"; };
+		39914A54279BD64D00441CCA /* YJTLiveAllListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTLiveAllListViewController.swift; sourceTree = "<group>"; };
+		39914A56279BD8C000441CCA /* YJTMainAttentionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTMainAttentionViewController.swift; sourceTree = "<group>"; };
+		39914A58279BD8E900441CCA /* YJTMainRecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTMainRecommendViewController.swift; sourceTree = "<group>"; };
+		39914A5A279BD99200441CCA /* YJTMainSquareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTMainSquareViewController.swift; sourceTree = "<group>"; };
+		39914A5C279BE2C900441CCA /* YJTApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YJTApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		39914A61279BF6C900441CCA /* YJTLiveDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTLiveDetailModel.swift; sourceTree = "<group>"; };
+		567FE0980378EA31745A8654 /* Pods-YJTApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJTApp.release.xcconfig"; path = "Target Support Files/Pods-YJTApp/Pods-YJTApp.release.xcconfig"; sourceTree = "<group>"; };
+		BED30CE1BFDABABCDCF8BD12 /* Pods_YJTApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJTApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39914A19279A53F500441CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371E1D1D965FFD94CD6918D3 /* Pods_YJTApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39914A13279A53F500441CCA = {
+			isa = PBXGroup;
+			children = (
+				39914A3C279A9D3F00441CCA /* YJTBase.swift */,
+				39914A50279BA37500441CCA /* R.generated.swift */,
+				39914A1E279A53F500441CCA /* YJTApp */,
+				39914A1D279A53F500441CCA /* Products */,
+				8DD385FA3EE70819C5B391EE /* Pods */,
+				3D3EA81B3C21D1C1393D5A25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39914A1D279A53F500441CCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39914A1C279A53F500441CCA /* YJTApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39914A1E279A53F500441CCA /* YJTApp */ = {
+			isa = PBXGroup;
+			children = (
+				39914A36279A8DDC00441CCA /* AppDelegate */,
+				39914A37279A8DF300441CCA /* Common */,
+				39914A40279BA02100441CCA /* Pages */,
+				39914A33279A541D00441CCA /* Resources */,
+			);
+			path = YJTApp;
+			sourceTree = "<group>";
+		};
+		39914A33279A541D00441CCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39914A28279A53F600441CCA /* Assets.xcassets */,
+				39914A2A279A53F600441CCA /* LaunchScreen.storyboard */,
+				39914A2D279A53F600441CCA /* Info.plist */,
+				39914A5C279BE2C900441CCA /* YJTApp-Bridging-Header.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		39914A36279A8DDC00441CCA /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				39914A1F279A53F500441CCA /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		39914A37279A8DF300441CCA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				39914A38279A8E0700441CCA /* Network */,
+				39914A60279BF57100441CCA /* DataModel */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		39914A38279A8E0700441CCA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				39914A39279A8E2300441CCA /* YJTAPI.swift */,
+				39914A3E279ADE8600441CCA /* YJTNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		39914A40279BA02100441CCA /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				39914A41279BA07B00441CCA /* YJTRootTabBarController.swift */,
+				39914A43279BA0B100441CCA /* Home */,
+				39914A44279BA0B900441CCA /* Live */,
+				39914A45279BA0CD00441CCA /* Message */,
+				39914A46279BA0D700441CCA /* Mine */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		39914A43279BA0B100441CCA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				39914A47279BA10700441CCA /* YJTMainHomeViewController.swift */,
+				39914A56279BD8C000441CCA /* YJTMainAttentionViewController.swift */,
+				39914A58279BD8E900441CCA /* YJTMainRecommendViewController.swift */,
+				39914A5A279BD99200441CCA /* YJTMainSquareViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		39914A44279BA0B900441CCA /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				39914A49279BA14500441CCA /* YJTLiveHomeViewController.swift */,
+				39914A52279BD64400441CCA /* YJTLiveTopListViewController.swift */,
+				39914A54279BD64D00441CCA /* YJTLiveAllListViewController.swift */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		39914A45279BA0CD00441CCA /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				39914A4B279BA16200441CCA /* YJTMessageHomeViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		39914A46279BA0D700441CCA /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				39914A4D279BA17400441CCA /* YJTMineHomeViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		39914A60279BF57100441CCA /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				39914A61279BF6C900441CCA /* YJTLiveDetailModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		3D3EA81B3C21D1C1393D5A25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BED30CE1BFDABABCDCF8BD12 /* Pods_YJTApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DD385FA3EE70819C5B391EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0800A3F5361C5D0A58EC5C37 /* Pods-YJTApp.debug.xcconfig */,
+				567FE0980378EA31745A8654 /* Pods-YJTApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39914A1B279A53F500441CCA /* YJTApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39914A30279A53F600441CCA /* Build configuration list for PBXNativeTarget "YJTApp" */;
+			buildPhases = (
+				BD4708EEDA8A4317C26DF98C /* [CP] Check Pods Manifest.lock */,
+				39914A1A279A53F500441CCA /* Resources */,
+				39914A4F279BA2B300441CCA /* ShellScript */,
+				39914A18279A53F500441CCA /* Sources */,
+				39914A19279A53F500441CCA /* Frameworks */,
+				BCCF68B77B646A1218FE0E62 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJTApp;
+			productName = YJTApp;
+			productReference = 39914A1C279A53F500441CCA /* YJTApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39914A14279A53F500441CCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = YJT;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					39914A1B279A53F500441CCA = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+					};
+				};
+			};
+			buildConfigurationList = 39914A17279A53F500441CCA /* Build configuration list for PBXProject "YJTApp" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39914A13279A53F500441CCA;
+			productRefGroup = 39914A1D279A53F500441CCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39914A1B279A53F500441CCA /* YJTApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39914A1A279A53F500441CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39914A2C279A53F600441CCA /* LaunchScreen.storyboard in Resources */,
+				39914A29279A53F600441CCA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39914A4F279BA2B300441CCA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/R.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PODS_ROOT/R.swift/rswift generate $SRCROOT/R.generated.swift\n";
+		};
+		BCCF68B77B646A1218FE0E62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YJTApp/Pods-YJTApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YJTApp/Pods-YJTApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YJTApp/Pods-YJTApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD4708EEDA8A4317C26DF98C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJTApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39914A18279A53F500441CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39914A59279BD8E900441CCA /* YJTMainRecommendViewController.swift in Sources */,
+				39914A42279BA07B00441CCA /* YJTRootTabBarController.swift in Sources */,
+				39914A48279BA10700441CCA /* YJTMainHomeViewController.swift in Sources */,
+				39914A4A279BA14500441CCA /* YJTLiveHomeViewController.swift in Sources */,
+				39914A3F279ADE8600441CCA /* YJTNetwork.swift in Sources */,
+				39914A3D279A9D3F00441CCA /* YJTBase.swift in Sources */,
+				39914A5B279BD99200441CCA /* YJTMainSquareViewController.swift in Sources */,
+				39914A4C279BA16300441CCA /* YJTMessageHomeViewController.swift in Sources */,
+				39914A4E279BA17400441CCA /* YJTMineHomeViewController.swift in Sources */,
+				39914A51279BA37500441CCA /* R.generated.swift in Sources */,
+				39914A57279BD8C000441CCA /* YJTMainAttentionViewController.swift in Sources */,
+				39914A55279BD64D00441CCA /* YJTLiveAllListViewController.swift in Sources */,
+				39914A53279BD64400441CCA /* YJTLiveTopListViewController.swift in Sources */,
+				39914A3A279A8E2300441CCA /* YJTAPI.swift in Sources */,
+				39914A62279BF6C900441CCA /* YJTLiveDetailModel.swift in Sources */,
+				39914A20279A53F500441CCA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39914A2A279A53F600441CCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39914A2B279A53F600441CCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39914A2E279A53F600441CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39914A2F279A53F600441CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39914A31279A53F600441CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0800A3F5361C5D0A58EC5C37 /* Pods-YJTApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MGWB79Z83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YJTApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TYJ.YJTApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YJTApp/Resources/YJTApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39914A32279A53F600441CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567FE0980378EA31745A8654 /* Pods-YJTApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MGWB79Z83;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YJTApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TYJ.YJTApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YJTApp/Resources/YJTApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39914A17279A53F500441CCA /* Build configuration list for PBXProject "YJTApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39914A2E279A53F600441CCA /* Debug */,
+				39914A2F279A53F600441CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39914A30279A53F600441CCA /* Build configuration list for PBXNativeTarget "YJTApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39914A31279A53F600441CCA /* Debug */,
+				39914A32279A53F600441CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39914A14279A53F500441CCA /* Project object */;
+}

@@ -1,0 +1,23 @@
+
+#source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://github.com/tan5460/YJTSpecRepo.git'
+
+platform :ios, '9.0'
+
+target 'YJTApp' do
+ 
+  use_frameworks!
+  
+  pod 'YJTBaseComponent'
+
+  pod 'Moya'
+  pod 'HandyJSON'
+  pod 'R.swift'
+  
+  pod 'SnapKit'
+  #分栏目录
+  pod 'JXSegmentedView'
+  
+  pod 'MJRefresh'
+
+end
